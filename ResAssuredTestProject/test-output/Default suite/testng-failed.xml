@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)" preserve-order="false">
+    <classes>
+      <class name="E2E_Tests">
+        <methods>
+          <include name="createSession"/>
+          <include name="bgetBooks"/>
+          <include name="createUser"/>
+          <include name="deleteBooks"/>
+          <include name="createBooks"/>
+          <include name="egetUser"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
